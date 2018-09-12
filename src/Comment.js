@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Comment = ({c}) => {
-	let comment = 'vazio'
-	let email = 'vazio'
+	let comment = 'test'
+	let email = 'test'
 
 	if(c){
 		if(c.comment){
@@ -17,8 +17,8 @@ const Comment = ({c}) => {
 			<div className='card mt-2'>
 				<div className='card-body'>
 				{comment}
-				<br />
-				<span className='text-muted'>Enviado por: {email} </span>
+				{/* <br />
+				<span className='text-muted'>{email}</span> */}
 				</div>
 			</div>
 

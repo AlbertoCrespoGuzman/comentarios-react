@@ -9,7 +9,7 @@ it('should render', () => {
 		comment: 'test'
 	}
 	const wrapper = render(<Comment c={c} />)
-	expect(wrapper.text()).toBe('Comentario: test')
+	expect(wrapper.text()).toBe('test')
 })
 
 it('should render other', () => {
@@ -17,5 +17,5 @@ it('should render other', () => {
 		comment: 'test'
 	}
 	const wrapper = render(<Comment c={c} />)
-	expect(wrapper.text()).toBe('Comentario: test')
+	expect(wrapper.text()).toBe('test')
 })
