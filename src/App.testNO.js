@@ -74,7 +74,7 @@ describe('<App />', () => {
 		})
 
 		wrapper.update()
-// tests
+// tests sa dasd asd 
 
 	expect(wrapper.state().isLoading).toBeFalsy()
 	expect(wrapper.state().comments).toBe(comments)
